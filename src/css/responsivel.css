@@ -1,58 +1,76 @@
-@media(max-width:768px){
-    body{
+@media(max-width: 768px) {
+    body {
         background-position: center;
         padding: 0 15px;
-
     }
+
     .slider {
         gap: 10px;
     }
 }
 
+@media(max-width: 496px) {
+    .lista-personagens {
+        width: 250px;
+    }
 
-@media (max-width: 496px) {
-.lista-personagens{
-    width: 250px;
-
-}
-    .imagem-carta{
+    .imagem-carta {
         width: 100%;
-
     }
 
-    .slider{
-    position: relative;
+    .slider {
+        position: relative;
     }
 
-
-    .btn-seta{
+    .btn-seta {
         position: absolute;
-        bottom: -13%;
+        bottom: -23%;
     }
-#btn-avancar{
-    right: 20%;
-}
 
+    .cartao .estrela{
+        width: 20px;
+        height: 76.7px;
+     
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+    }
+    
 
-#btn-voltar{
-    left: 20%;
-}
+    #btn-avancar {
+        right: 20%;
+    }
 
+    #btn-voltar {
+        left: 20%;
+    }
 }
 
 @media(max-width: 375px) {
-    body{
+    body {
         justify-content: start;
         padding-top: 10px;
         gap: 10px;
     }
 
-    .cabecalho{
-        font-size: 12px;
 
     }
+
+
+    @media (max-width: 480px) {
+        .cartao .nome {
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .slider {
+            flex-direction: column;
+            gap: 50px;
+        }
     
-}
-
-
+        .slider {
+            gap: 10px;
+        }
+    }
 
