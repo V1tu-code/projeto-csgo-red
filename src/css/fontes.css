@@ -1,5 +1,5 @@
-@font-face {
-    font-family: 'Yugioh';
-    src: url(/src/fontes/fontes-yu-gi-oh.otf);
-}
+@font-face{
 
+    font-family: 'Yugioh';
+    src: url(../fontes/fonte-yu-gi-oh.otf);
+}
